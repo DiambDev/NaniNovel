@@ -1,0 +1,23 @@
+# Define the characters
+define A = Character("A")
+define D = Character("D")
+
+@char A
+@char D
+
+# Scene 1: Classroom
+@back classroom
+show A at left
+show D at right
+
+@opacity A 0.3
+@scale A 0.7
+
+Continue executing this script or load another? [skiptInput]
+"A: (looking ahead, thoughtful)  
+A: D, have you ever felt like everything is out of place?"
+@choice "Yes, I always feel like that." goto:Office.Scene4
+@choice "No, I don't usually feel like that." goto:Room
+@choice "No, I don't usually feel like that." goto:Kitchen.Data2
+
+@wait 1

@@ -1,0 +1,29 @@
+# Escena 3: Oficina
+@back office # Fondo de la oficina
+@hide A # Esconde a A
+@hide D # Esconde a D
+@sleep 0.5 # Pausa breve
+
+@show A at left # Mostrar a A en la oficina
+@show D at right # Mostrar a D en la oficina
+
+"A: (sentada frente a una computadora, tecleando, D más pequeña y opaca)  
+A: A veces, pienso que nuestra vida es como un proyecto. Lo organizamos, lo planeamos, pero nunca sale como esperábamos."
+
+@wait 1
+
+"D: (mirando la pantalla del ordenador, A más pequeña y opaca)  
+D: Es cierto. Siempre surgen obstáculos, pero eso no significa que no podamos adaptarnos, ¿no?"
+
+@wait 1
+
+"A: (sonriendo, D más pequeña y opaca)  
+A: Claro. Como esta oficina. Al principio pensé que era solo un lugar aburrido, pero ahora... me doy cuenta de que es donde he aprendido a ser más flexible."
+
+@wait 1
+
+"D: (asintiendo, A más pequeña y opaca)  
+D: Y eso también puede aplicar a la vida. Puede que no todo esté perfecto, pero con tiempo, podemos encontrar nuestra forma."
+
+@wait 1
+@stop

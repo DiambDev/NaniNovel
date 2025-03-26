@@ -1,0 +1,55 @@
+# Escena4: Cuarto de A
+@back room # Fondo del cuarto de A
+@hide A # Esconde a A
+@hide D # Esconde a D
+@sleep 0.5 # Pausa breve
+
+@show A at left # Mostrar a A en el cuarto
+@show D at right # Mostrar a D en el cuarto
+
+"A: (recostada en la cama, mirando al techo, D más pequeña y opaca)  
+A: D, ¿alguna vez has tenido esa sensación de que todo lo que has hecho hasta ahora ha sido en vano?"
+
+@wait 1
+
+"D: (sentado en una silla cercana, pensativo, A más pequeña y opaca)  
+D: Sí, claro. Todos hemos pasado por momentos de duda. Pero creo que lo importante es seguir adelante, aunque no tengamos todas las respuestas."
+
+@wait 1
+
+"A: (sonriendo, más tranquila, D más pequeña y opaca)  
+A: Supongo que tienes razón. A veces solo necesitamos un poco de perspectiva."
+
+@wait 1
+
+"D: (mirándola, A más pequeña y opaca)  
+D: Y tal vez un poco de apoyo. A veces, con alguien cerca, las cosas no parecen tan difíciles."
+
+@wait 1
+
+# Escena 5: Salón de clases (al día siguiente)
+@back classroom # Fondo del salón de clases (de nuevo)
+@hide A # Esconde a A
+@hide D # Esconde a D
+@sleep 0.5 # Pausa breve
+
+@show A at left # Mostrar a A de nuevo
+@show D at right # Mostrar a D de nuevo
+
+"A: (con una sonrisa confiada, mirando a D, D más pequeña y opaca)  
+A: Hoy siento que todo será diferente. He decidido crear mi propio camino."
+
+@wait 1
+
+"D: (mirando a A, asintiendo, A más pequeña y opaca)  
+D: Eso suena genial. Yo también estoy listo para dejar de esperar que todo encaje. Vamos a hacerlo."
+
+@wait 1
+
+# Fin de la historia
+@hide A # Esconde a A
+@hide D # Esconde a D
+@back End
+@stop
+
+@stop

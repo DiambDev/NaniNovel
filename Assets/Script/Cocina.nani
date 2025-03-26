@@ -1,0 +1,31 @@
+# Escena 2: Cocina
+@back kitchen
+@hide A
+@hide D
+@sleep 0.5 # Pausa breve
+
+@show A at left # Mostrar a A en la cocina
+@show D at right # Mostrar a D en la cocina
+
+"A: (sirviendo una taza de café, D más pequeña y opaca)  
+A: ¿Sabes qué? La vida es más compleja de lo que creemos. Tal vez solo estamos buscando en los lugares equivocados."
+
+@wait 1
+
+"D: (sentándose en una silla, A más pequeña y opaca)  
+D: ¿A qué te refieres con eso? No estoy seguro de entender."
+
+@wait 1
+
+"A: (tomando un sorbo de café, D más pequeña y opaca)  
+A: Quizá no necesitamos encontrar nuestro lugar. Tal vez lo que necesitamos es crear uno."
+
+@wait 1
+
+"D: (pensativo, A más pequeña y opaca)  
+D: Eso suena... complicado. Pero, ahora que lo dices, tiene algo de sentido."
+
+@wait 1
+#Data2
+jjsjsjisjis
+@stop
